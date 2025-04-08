@@ -15,22 +15,37 @@
 <body>
 
   <div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-between py-3 mb-4 border-bottom cabecalho">
-      <div class="col-md-3 mb-2 mb-md-0">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
-          <img class="logoTeste" width="90" height="90" src="logo4.png" alt="">           
-        </a> 
-      </div>
-      
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 gap-3">
-        <li><a href="#home" class="nav-link px-2 link-secondary">HOME</a></li>
-        <li><a href="#servicos" class="nav-link px-2">SERVIÇOS</a></li>  
-        <li><a href="#sobre" class="nav-link px-2">SOBRE</a></li>
-        <li><a href="#depoimentos" class="nav-link px-2">DEPOIMENTOS</a></li>   
-        <li><a href="#contato" class="nav-link px-2">CONTATO</a></li>
-      </ul>
+    <header class="py-3 mb-4 border-bottom cabecalho">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+  
+          <!-- Logo alinhada à esquerda -->
+          <a href="/" class="navbar-brand d-flex align-items-center">
+            <img class="logoTeste" width="90" height="90" src="logo4.png" alt="Logo">
+          </a>
+  
+          <!-- Botão hamburguer à direita -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Menu colapsável -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-3">
+              <li class="nav-item"><a href="#home" class="nav-link px-2">HOME</a></li>
+              <li class="nav-item"><a href="#servicos" class="nav-link px-2">SERVIÇOS</a></li>
+              <li class="nav-item"><a href="#sobre" class="nav-link px-2">SOBRE</a></li>
+              <li class="nav-item"><a href="#depoimentos" class="nav-link px-2">DEPOIMENTOS</a></li>
+              <li class="nav-item"><a href="#contato" class="nav-link px-2">CONTATO</a></li>
+            </ul>
+          </div>
+  
+        </div>
+      </nav>
     </header>
-</div>
+  </div>
+  
+  
 
 
   <div class="imagem-funcionario text-center">
