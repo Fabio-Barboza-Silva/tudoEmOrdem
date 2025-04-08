@@ -1,0 +1,156 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }  
+
+  /*header*/
+.cabecalho {
+  margin-right: 200px;
+}
+
+  .form-control-dark {
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle:not(:focus) {
+    outline: 0;
+  }
+
+  
+  /*fim header*/
+
+  .nav-link {
+    color: #743107 !important; /* Altera a cor dos links */
+    font-weight: bold !important;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .logoTeste {
+    width: 100px; /* Ajuste conforme necessário */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Mantém o conteúdo ajustado */
+    margin-left: 250px;
+  }
+
+  .logo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+
+  .imagem-funcionario {
+    margin-top: -50 !important;
+    padding-top: 5 !important;
+  }
+
+  /* Seção Hero */
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f3a86b;
+    border-radius: 10px;
+    margin: 50px auto ;
+    width: 100%;
+  }
+  
+  .botao {
+    background-color: #d65c0a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .services {
+    color: #e65a0a;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .card {  
+  margin-bottom: 20px; /* Adiciona espaço entre os cards */
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 10px auto;
+}
+
+.card-title {
+  color: #004e89;
+}
+
+.btn-primary {
+  background-color: #ff6600;
+  border: none;
+}
+
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Seções de Conteúdo */
+  section {
+    padding: 40px 20px;
+    max-width: 1020px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #004e89;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Depoimentos */
+  .depoimentos p {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+
+
+
+
+  
